@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-29T17:52:38 IST" name="Default suite" finished-at="2024-11-29T17:54:05 IST" duration-ms="86883">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberoptions.TestNGTestRunner@223191a6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-29T17:52:38 IST" name="Default test" finished-at="2024-11-29T17:54:05 IST" duration-ms="86883">
+      <class name="cucumberoptions.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberoptions.TestNGTestRunner@223191a6]" started-at="2024-11-29T17:52:38 IST" name="setUpClass" finished-at="2024-11-29T17:52:39 IST" duration-ms="1008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e4d40ea]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberoptions.TestNGTestRunner@223191a6]" started-at="2024-11-29T17:52:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T17:53:27 IST" duration-ms="47440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario New_Bussiness Inward"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Automation MAgma]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberoptions.TestNGTestRunner@223191a6]" started-at="2024-11-29T17:53:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T17:53:53 IST" duration-ms="26275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario New_Bussiness Proceed For QC"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Automation MAgma]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberoptions.TestNGTestRunner@223191a6]" started-at="2024-11-29T17:53:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T17:54:04 IST" duration-ms="11009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario New_Bussiness Proceed for Praposal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Automation MAgma]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberoptions.TestNGTestRunner@223191a6]" started-at="2024-11-29T17:54:04 IST" name="tearDownClass" finished-at="2024-11-29T17:54:05 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberoptions.TestNGTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
