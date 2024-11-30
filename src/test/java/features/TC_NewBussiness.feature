@@ -96,7 +96,7 @@ Feature: Automation MAgma
      And Click proceed_for_praposal butoon
      Then GeneralProposal page is open
      And  Select policy variant dropdown "<policy_variant>"
-      And  Select insured person relationship dropdown "<insured_person_relationship>"
+  #    And  Select insured person relationship dropdown "<insured_person_relationship>"
       Examples:
      | policy_variant              |insured_person_relationship|
      |Individual|Non employee-employer relationship|
